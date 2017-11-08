@@ -3,3 +3,4 @@ For class test
 gabrieltxt
 another line added      
 anoher test
+another one
