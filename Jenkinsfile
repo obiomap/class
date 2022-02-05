@@ -17,7 +17,7 @@ pipeline {
         stage('deploy war to tomcat') {
             steps {
 				sh 'echo "I will do this no matter what the status is"'
-				sh 'cp $WORKSPACE/*.war /data/tomcat8/webapps'
+				sh 'cp $WORKSPACE/*.war /newdata/data/tomcat8/webapps'
             }
         }
     }
