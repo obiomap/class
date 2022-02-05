@@ -16,7 +16,7 @@ pipeline {
         }
     	stage('Checkout') {
         	steps {
-            		git branch: 'main', credentialsId: 'ae5a2995-14e2-4d1c-b667-a7ab56eca70d', url: 'https://github.com/obiomap/class.git'
+            		git branch: 'master', credentialsId: 'ae5a2995-14e2-4d1c-b667-a7ab56eca70d', url: 'https://github.com/obiomap/class.git'
         	}
     	}
         stage('deploy war to tomcat') {
